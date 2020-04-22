@@ -1,6 +1,6 @@
 # Pneumonia Classifier
 
-![image](https://github.com/dapsavoie/pneumonia_classifier/blob/master/jZqpV51%20(1).png)
+![image](https://github.com/dapsavoie/pneumonia_classifier/blob/master/download (2).jpg]
 
 This project requires creating an image classifier that identifies pneumonia in patients. 
 
