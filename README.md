@@ -1,7 +1,5 @@
 # Pneumonia Classifier
 
-![image](https://github.com/dapsavoie/pneumonia_classifier/blob/master/download%20(2).jpg]
-
 This project requires creating an image classifier that identifies pneumonia in patients. 
 
 The best performing model contains data that was augmented in the normal category and added to a file called normal_aug.
