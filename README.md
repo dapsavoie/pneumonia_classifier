@@ -8,6 +8,12 @@ This augmented was data was then tested on the best performing model. It improve
 
 This indicates that class balancing improved the output. However, further work is needed to prevent false negatives.
 
+# Unpacking a Misclassified Image
+
+![alt text](https://github.com/dapsavoie/pneumonia_classifier/blob/master/person96_bacteria_466.jpeg "Misclassifed False Negative")
+
+It can be helpful to visualize misclassified images to understand what makes these qualities difficult to classify. In the image above, the pneumonia appears in the left lung more then the right and this could be a leading factor in the mistake. We should look at adding a feature that focuses on the size and density of the white areas that indicate pneumonia as they are different from the normal image. 
+
 # Conclusion
 
 The best peforming model is a multi layered keras sequential model with a relu activation function. The model includes conv2d layers, max pooling, and a binary cross-entropy loss function. I also added dense and dropout layers to improve the final performance. In addition, an additional 2540 images were added by augmenting the normal images. As target classes were imbalanced towards pneumonia, balancing them proved key to improving the final recall score.
